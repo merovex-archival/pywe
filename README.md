@@ -24,11 +24,14 @@ The user-contributed commentary and notes regarding this recipe are found on the
 ### Related Recipes Used
 
 Share other recipes that you use in combination with this recipe.
-Alternative Recipes Used
+
+### Alternative Recipes Used
 
 Share a recipe you use instead of this one.
+
 It's not a recipe, but I use "it's all text" as an extension to firefox to enable me to edit stuff in vim. (Go, Vim!)
-Download
+
+## Download
 
 * Attach:pywe-1.3.1.txtΔ This is the main application. Note: Because the PmWiki site does not support the Python extension, you will need to rename the file to pywe-1.3.1.py.
 * Attach:sample-pywerc Δ This is a sample configuration file for Pywe.
@@ -36,9 +39,10 @@ Download
 
 ## Usage
 
-pywe [ options ] domain:Group.Pagename
-pywe [ options ] http://www.example.org/pmwiki.php/Main/Sandbox
-pywe --help: Will print this usage statement on the command line.
+`pywe [ options ] domain:Group.Pagename`
+`pywe [ options ] http://www.example.org/pmwiki.php/Main/Sandbox`
+`pywe --help: Will print this usage statement on the command line.`
+
 In the first example, the "domain" refers to the section of the .pywerc file that contains the wiki-specific configuration. This approach allows the editor to preset values to spare typing on the command line.
 
 ## Options
@@ -84,35 +88,39 @@ In the first example, the "domain" refers to the section of the .pywerc file tha
 
 The Pywerc file is an RFC 822 compliant "*.ini" file formatted configuration file. This allows the user to configure options via a configuration file such that a different set of configurations exists per domain. This is represented by the pywe [ options ] domain:Group.Pagename style of usage. The "domain" is the section delimiter in the .pywerc file. For more specific information on how it is used, please consult the Attach:sample-pywerc Δ file.
 Pywerc Configuration Variables. To reduce typing, the .pywerc file stores the following values on a per domain basis.
-author
-The user name who is editing the page.
-browser
-The full path to your preferred browser, with options.
-editor
-The full path to your preferred editor, with options.
-enablepathinfo
-Whether to submit the page in Enable Path Info format or not. Refer to the PmWiki features for more information on this format.
-keep
-Whether the author would always like an edited page "kept."
-page
-A default pagename.
-password
-Whether a password is required to edit the page.
-url
-The URL is the full-URL path to the wiki you are trying to edit.
-Issue Tracking
+
+<dl>
+<dt>author</dt>
+<dd>The user name who is editing the page.</dd>
+<dt>browser</dt>
+<dd>The full path to your preferred browser, with options.</dd>
+<dt>editor</dt>
+<dd>The full path to your preferred editor, with options.</dd>
+<dt>enablepathinfo</dt>
+<dd>Whether to submit the page in Enable Path Info format or not. Refer to the PmWiki features for more information on this format.</dd>
+<dt>keep</dt>
+<dd>Whether the author would always like an edited page "kept."</dd>
+<dt>page</dt>
+<dd>A default pagename.</dd>
+<dt>password</dt>
+<dd>Whether a password is required to edit the page.</dd>
+<dt>url</dt>
+<dd>The URL is the full-URL path to the wiki you are trying to edit.</dd>
+</dl>
+
+## Issue Tracking
 
 Are you aware of a problem with Pmwe? This recipe is actively maintained on a the Python-based PmWiki Editor web page. There I maintain a development journal, a repository for defects and features and a more complete release history.
 
 ## Release Notes
 
 * v.1.3.1 February 9, 2007 BenWilson February 09, 2007, at 09:56 AM
-** Added some authentication testing.
-** Classed error handling.
+   * Added some authentication testing.
+   * Classed error handling.
 * v.1.3.0 February 7, 2007 BenWilson February 08, 2007, at 09:50 AM
-** Fixed problem with being unable to delete pages via Pywe.
-** Fixed problem with accidently creating a new page when mistyping the pagename.
-** Added support for the common PmWiki calendar date format.
+   * Fixed problem with being unable to delete pages via Pywe.
+   * Fixed problem with accidently creating a new page when mistyping the pagename.
+   * Added support for the common PmWiki calendar date format.
 * v.1.2.0 June 2, 2006 Implemented Injection feature. BenWilson June 02, 2006, at 11:02 PM
 * v.1.1.1 May 30, 2006 Fixed broken journal option. BenWilson May 30, 2006, at 05:40 PM
 * v.1.1.0 May 29, 2006 Initial Public Release. BenWilson May 29, 2006, at 12:12 PM
