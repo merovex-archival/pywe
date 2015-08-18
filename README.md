@@ -43,34 +43,36 @@ In the first example, the "domain" refers to the section of the .pywerc file tha
 
 ## Options
 
--a AUTHOR, --author=AUTHOR
-sets author's name from the command line
--b BROWSE,
-after edit, load the page in the configured browser.
--c, --calendar
-appends date format YMD to pages for use with Pm Calendar.
--d, --delete
-initates page delete dialog.
--e EDITOR, --editor=EDITOR
-sets editor (full path) from the command line.
--h, --help
-show this help message and exit.
--i FILE, --inject=FILE
-inject local source into wiki.
--j, --journal
-append today's date to page
--k, --keep
-keep local copy of page source after edit.
--n, --nopass
-site does not require a password.
--p, --pull
-pull source and save locally sans editing.
--u URL, --url=URL
-read the PmWiki source from URI for editing.
--v VERBOSE, --verbose=VERBOSE
-Not yet implemented right.
---version
-show program's version number and exit.
+<dl>
+<dt>-a AUTHOR, --author=AUTHOR</dt>
+<dd>sets author's name from the command line</dd>
+<dt>-b BROWSE,</dt>
+<dd>after edit, load the page in the configured browser.</dd>
+<dt>-c, --calendar</dt>
+<dd>appends date format YMD to pages for use with Pm Calendar.</dd>
+<dt>-d, --delete</dt>
+<dd>initates page delete dialog.</dd>
+<dt>-e EDITOR, --editor=EDITOR</dt>
+<dd>sets editor (full path) from the command line.</dd>
+<dt>-h, --help</dt>
+<dd>show this help message and exit.</dd>
+<dt>-i FILE, --inject=FILE</dt>
+<dd>inject local source into wiki.</dd>
+<dt>-j, --journal</dt>
+<dd>append today's date to page</dd>
+<dt>-k, --keep</dt>
+<dd>keep local copy of page source after edit.</dd>
+<dt>-n, --nopass</dt>
+<dd>site does not require a password.</dd>
+<dt>-p, --pull</dt>
+<dd>pull source and save locally sans editing.</dd>
+<dt>-u URL, --url=URL</dt>
+<dd>read the PmWiki source from URI for editing.</dd>
+<dt>-v VERBOSE, --verbose=VERBOSE</dt>
+<dd>Not yet implemented right.</dd>
+<dt>--version</dt>
+<dd>show program's version number and exit.</dd>
+</dl>
 
 **Local File Interface.** Pywe has three primary ways of using local files. First, the inject option submits a local text file to the PmWiki page. Second, the keep option keeps a local copy of the wiki page after it is edited by the author. That is, the remote copy is fed into the editor, and the copy submitted to the wiki site is kept as a local copy. Finally, the pull option simply pulls the remote copy and saves as a local copy. This can be used in conjunction with inject to allow the author to pull down a copy, edit and repost (although interviening changes would be overwritten). Beyond these three methods, a failed upload should archive the edited copy (similar to keep) locally to allow the author to inject the page when the network interference has passed.
 
