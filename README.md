@@ -1,10 +1,5 @@
-Table of Contents
-Background
-Comments
-Download
-Usage
-Issue Tracking
-Release Notes
+
+## FAQ
 
 **Q: I would like to edit PmWiki pages using my favorite text editor.**
 
