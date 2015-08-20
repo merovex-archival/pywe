@@ -18,7 +18,8 @@ pywe
 # written concent of the copyright holder.  Permission to publish is granted to
 # pmwiki.org, but no permission to modify is granted. Any exercise of rights
 # under this license by you is subject to the following conditions.
-#    1. Redistribution of this software is not permitted.
+#    1. If you remix, transform, or build upon the material, you may not 
+#       distribute the modified material.
 #    2. Any user documentation must include the copyright statement.
 #    3. This copyright statement, disclaimers and limitations must remain with 
 #       the software.
@@ -62,6 +63,8 @@ pywe
 # If you have any questions, comments or concerns, please contact the author at
 # <ameen@dausha.net>
 #
+# Follow the GitHub Repository: https://github.com/Merovex/pywe
+#
 # License Version: v1.0 - May 20, 2006.
 #
 # Software version: v1.0 - Public Release May 20, 2006
@@ -69,7 +72,8 @@ pywe
 # Software version: v1.2 - Public Release June 2, 2006
 # Software version: v1.3 - Public Release February 7, 2007
 # Software version: v1.3.1 - Public Release February 9, 2007
-__version__ = "v1.3.1 - February 9, 2007"
+# Software version: v1.3.2 - Public Release August 20, 2015
+__version__ = "v1.3.2 - August 20, 2015"
 
 import ConfigParser
 import optparse

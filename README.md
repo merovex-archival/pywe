@@ -112,8 +112,16 @@ Pywerc Configuration Variables. To reduce typing, the .pywerc file stores the fo
 
 Are you aware of a problem with Pmwe? This recipe is actively maintained on a the Python-based PmWiki Editor web page. There I maintain a development journal, a repository for defects and features and a more complete release history.
 
+## License
+
+This work is licensed under a [Creative Commons Attribution-NoDerivatives 4.0 International](http://creativecommons.org/licenses/by-nd/4.0/) License.
+
+I would rather have one solid copy than various derivatives. If you'd like to contribute, submit a pull request and I'll strongly consider incorporating it.
+
 ## Release Notes
 
+* '''v.1.3.1 August 20, 2015''' [[~BenWilson]] August 20, 2015, at 05:56 AM 
+** Updated License to CC BY-ND 4.0.
 * v.1.3.1 February 9, 2007 BenWilson February 09, 2007, at 09:56 AM
    * Added some authentication testing.
    * Classed error handling.
