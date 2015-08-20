@@ -31,16 +31,18 @@ Share a recipe you use instead of this one.
 
 It's not a recipe, but I use "it's all text" as an extension to firefox to enable me to edit stuff in vim. (Go, Vim!)
 
-## Download
+## Files
 
-* Attach:pywe-1.3.1.txtΔ This is the main application. Note: Because the PmWiki site does not support the Python extension, you will need to rename the file to pywe-1.3.1.py.
-* Attach:sample-pywerc Δ This is a sample configuration file for Pywe.
-* Attach:syntax-pmwiki.txtΔ This is a vim syntax file for PmWiki. Because the PmWiki site does not support the vim extension, you will need to rename this file to pmwiki.vim
+* Attach:pywe.py This is the main application.
+* Attach:sample-pywerc  This is a sample configuration file for Pywe. (Need to update)
+* Attach:syntax-pmwiki.txt This is a vim syntax file for PmWiki. Because the PmWiki site does not support the vim extension, you will need to rename this file to pmwiki.vim
 
 ## Usage
 
 `pywe [ options ] domain:Group.Pagename`
+
 `pywe [ options ] http://www.example.org/pmwiki.php/Main/Sandbox`
+
 `pywe --help: Will print this usage statement on the command line.`
 
 In the first example, the "domain" refers to the section of the .pywerc file that contains the wiki-specific configuration. This approach allows the editor to preset values to spare typing on the command line.
@@ -110,7 +112,7 @@ Pywerc Configuration Variables. To reduce typing, the .pywerc file stores the fo
 
 ## Issue Tracking
 
-Are you aware of a problem with Pmwe? This recipe is actively maintained on a the Python-based PmWiki Editor web page. There I maintain a development journal, a repository for defects and features and a more complete release history.
+Are you aware of a problem with Pmwe? Submit an issue or a pull request on the [GitHub repository](https://github.com/Merovex/pywe).
 
 ## License
 
